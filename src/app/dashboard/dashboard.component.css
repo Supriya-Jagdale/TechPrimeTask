@@ -1,0 +1,552 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap");
+/* *************VARIABLES START ************* */
+/* *************MIXIN START ************* */
+/* *************HEADER START ************* */
+.logHeader {
+  height: 220px;
+  width: 100%;
+  border-radius: 0 0 0 87px;
+  background: linear-gradient(274.88deg, #0474DA 0%, #044E92 100%);
+  overflow: hidden;
+}
+
+.logHeader .logOval {
+  height: 626px;
+  width: 647px;
+  opacity: 0.29;
+  background-color: #389AF3;
+  border-radius: 50%;
+  position: relative;
+  bottom: 120px;
+  left: 720px;
+}
+
+/* *********** DASHBOARD SCSS *********** */
+.m0 {
+  margin: 0;
+}
+
+.dashSection {
+  position: absolute;
+  top: 0;
+}
+
+/* ********* WELCOME CSS ********* */
+.headerTop {
+  color: #ffffffe3 !important;
+  padding: 28px;
+}
+
+.headerTop .welcomeMsg p {
+  font-family: "Nunito Sans";
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 30px;
+  color: white;
+  margin: 0;
+}
+
+.headerTop .welcomeMsg p span {
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.headerTop .companytitle {
+  text-align: center;
+}
+
+.headerTop .companytitle p {
+  font-family: "Nunito Sans";
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 30px;
+  color: white;
+}
+
+.headerTop .allBusiness {
+  text-align: right;
+}
+
+.headerTop .allBusiness ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.headerTop .allBusiness ul li {
+  display: inline-block;
+  padding: 0 16px;
+  font-size: 16px;
+  position: relative;
+  line-height: 22px;
+}
+
+.headerTop .allBusiness ul li:first-child::before {
+  content: "";
+  position: absolute;
+  left: 22px;
+  bottom: -6px;
+  height: 6px;
+  width: 6px;
+  border-bottom: 6px solid white;
+  border-radius: 50%;
+}
+
+.headerTop .allBusiness ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.headerTop .allBusiness ul li a:hover {
+  cursor: pointer;
+}
+
+/* ********* Tab Content ********* */
+.tabWraper {
+  padding-top: 4px;
+}
+
+.tab {
+  padding: 0px;
+}
+
+.tabbable-panel {
+  border: none;
+}
+
+.tabbable-line .tab-content {
+  margin-top: 30px;
+  border: 0;
+  padding: 15px 0;
+}
+
+.tabbable-line .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+
+.tabbable-line .nav-tabs li {
+  margin-right: 2px;
+  padding: 5px 23px;
+  font-size: 16px;
+  width: 77px;
+  line-height: 22px;
+  height: 22px;
+}
+
+.tabbable-line .nav-tabs li.open a, .tabbable-line .nav-tabs li:hover a {
+  border: 0;
+  background: none !important;
+}
+
+.tabbable-line .nav-tabs li.open a span, .tabbable-line .nav-tabs li:hover a span {
+  border-bottom: 1.5px solid #ffffffe3;
+  width: 17px;
+}
+
+.tabbable-line .nav-tabs li.open a i, .tabbable-line .nav-tabs li:hover a i {
+  color: #ffffffe3;
+}
+
+.tabbable-line .nav-tabs li.active {
+  position: relative;
+}
+
+.tabbable-line .nav-tabs li.active a {
+  background: none;
+  font-weight: 900;
+}
+
+.tabbable-line .nav-tabs li.active a span {
+  border-bottom: 1.5px solid #ffffffe3;
+  width: 17px;
+}
+
+.tabbable-line .nav-tabs li.active a i {
+  color: white;
+}
+
+.tabbable-line .nav-tabs li:first-child {
+  padding: 5px 15px 5px 5px !important;
+}
+
+.tabbable-line .nav-tabs li a {
+  border: 0;
+  margin-right: 0;
+  color: #ffffffe3;
+  padding: 0;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.tabbable-line .nav-tabs li a span {
+  width: 13px;
+  position: absolute;
+}
+
+/*  ****** Tab Content Data ******* */
+.formYr {
+  position: relative;
+  top: -20px;
+}
+
+.yearWrapper {
+  float: right;
+  margin-top: -45px;
+  color: white;
+}
+
+.yearWrapper .yr {
+  font-weight: normal;
+  line-height: 19px;
+  font-size: 14px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.yearWrapper select {
+  border: 0px;
+  font-size: 16px;
+  padding: 0 10px !important;
+  line-height: 22px;
+  background: none;
+}
+
+/* ********** Five Div ********** */
+.p-0 {
+  padding: 0;
+}
+
+ul.divfive {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+
+ul.divfive li {
+  display: inline-block;
+  margin: 0 20px 0 10px;
+}
+
+ul.divfive li .fiveDiv {
+  background: white;
+  border-left: 6px solid #43cefb;
+  border-radius: 4px;
+  padding: 9px 17px;
+  -webkit-box-shadow: 1px 2px 5px 0px #c3c3c3d6;
+          box-shadow: 1px 2px 5px 0px #c3c3c3d6;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  width: 205px;
+  height: 83px;
+  color: #474D52;
+}
+
+ul.divfive li .fiveDiv .first {
+  margin: 0;
+  font-size: 15px;
+}
+
+ul.divfive li .fiveDiv .size {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 54px;
+}
+
+.divisionXS {
+  margin-top: 1em;
+}
+
+.divisionXS .col6 {
+  padding: 0 7px;
+}
+
+.divisionXS .col6 label {
+  font-size: 13px;
+  font-weight: normal;
+  margin: 6px -16px 0 0;
+  color: #767676;
+}
+
+.divisionXS .col6 select {
+  width: 55%;
+  font-size: 12px;
+  height: 36px;
+  border: 1px solid #C7C7C7;
+  border-radius: 5px;
+}
+
+.rowGraph {
+  margin: 1.5em 0;
+}
+
+.rowGraph .titleGraph {
+  padding: 0 35px;
+}
+
+.rowGraph .titleGraph p {
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.rowGraph .ulBot .grp {
+  padding-top: 1em;
+}
+
+.rowGraph .ulBot .target {
+  margin: 0;
+  padding: 0;
+}
+
+.rowGraph .ulBot .target li {
+  color: #025AAB;
+}
+
+.rowGraph .ulBot .target span {
+  color: #767676 !important;
+}
+
+.rowGraph .ulBot .actual li {
+  color: green;
+}
+
+.rowGraph .ulBot .actual li span {
+  color: #767676 !important;
+}
+
+.rowGraph .barGrap .backyBarCol {
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 7px 18px 0 rgba(2, 118, 179, 0.13);
+          box-shadow: 0 7px 18px 0 rgba(2, 118, 179, 0.13);
+  padding: 3em 0;
+}
+
+.rowGraph .barGrap .bar p {
+  margin: 0px;
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.rowGraph .barGrap .firstBar {
+  border-right: 1px solid lightgray;
+}
+
+.rowGraph .barGrap .secBar .monthFm {
+  float: right;
+  margin-top: -24px;
+  padding: 0px 10px;
+}
+
+.rowGraph .barGrap .secBar .monthFm .yr1 {
+  font-weight: normal;
+  padding: 0;
+  font-size: 14px;
+}
+
+.rowGraph .barGrap .secBar .monthFm .dYear1 {
+  padding: 0 10px 0 0;
+}
+
+.graphColor .pieGraph {
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 7px 18px 0 rgba(2, 118, 179, 0.13);
+          box-shadow: 0 7px 18px 0 rgba(2, 118, 179, 0.13);
+  padding: 25px 0;
+}
+
+#todo {
+  height: 527px;
+  overflow: hidden;
+}
+
+#todo #todolist {
+  height: 100%;
+  overflow: scroll;
+}
+
+.todo {
+  margin: 2em 0;
+}
+
+.todo .titleToDo {
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.todo .titleToDo a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0 6px;
+  color: #025AAB;
+}
+
+.todo .toback {
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 7px 18px 0 rgba(2, 118, 179, 0.13);
+          box-shadow: 0 7px 18px 0 rgba(2, 118, 179, 0.13);
+  padding: 10px;
+}
+
+.todo .toback .col4 .col4wrap1 {
+  text-align: center;
+  font-family: "Nunito Sans";
+  border-right: 1px solid lightgray;
+  font-weight: 700;
+  padding: 10px;
+  color: #025AAB;
+}
+
+.todo .toback .col4 .col4wrap1 h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.todo .toback .col4 .col4wrap1 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.todo .toback .col4 .col4wrap2 {
+  text-align: center;
+  font-family: "Nunito Sans";
+  border-right: 1px solid lightgray;
+  font-weight: 700;
+  padding: 10px;
+  color: #A0C700;
+}
+
+.todo .toback .col4 .col4wrap2 h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.todo .toback .col4 .col4wrap2 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.todo .toback .col4 .col4wrap3 {
+  text-align: center;
+  font-family: "Nunito Sans";
+  border-right: 1px solid lightgray;
+  font-weight: 700;
+  padding: 10px;
+  color: #5AA647;
+}
+
+.todo .toback .col4 .col4wrap3 h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.todo .toback .col4 .col4wrap3 p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.todo .toback .detdo {
+  padding: 18px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.todo .toback .detdo h5 {
+  color: #010202;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.todo .toback .detdo h5 .toTime {
+  float: right;
+  margin-top: 0px;
+  color: gray;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.todo .toback .detdo h5 span {
+  color: #025AAB;
+  font-size: 12px;
+}
+
+.todo .toback .detdo .toDesc {
+  font-weight: 600;
+  font-size: 14px;
+  color: #6B6B6B;
+  letter-spacing: 0.3px;
+  margin: 10px 0;
+}
+
+.todo .toback .detdo .toDesc span {
+  padding: 2px 7px;
+  background: #67e7e7;
+  color: white;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.todo .toback .detdo .toDesc b {
+  padding: 0 10px;
+}
+
+.todo .toback .detdo ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo .toback .detdo ul li {
+  display: inline;
+}
+
+.todo .toback .detdo ul li:first-child {
+  color: #0465B4;
+  padding: 2px 13px;
+  border-right: 1px solid lightgray;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: bold;
+  border-right: 1px solid lightgray;
+}
+
+.todo .toback .detdo ul li:nth-child(2) {
+  font-size: 12px;
+  color: #96A1A9;
+  padding: 2px 13px;
+}
+
+.todo .toback .detdo ul li:nth-child(2) span {
+  font-size: 14px;
+  color: #414950;
+}
+
+.pieCanvas {
+  width: 100% !important;
+  height: 302px !important;
+}
+/*# sourceMappingURL=dashboard.component.css.map */

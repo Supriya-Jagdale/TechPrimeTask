@@ -1,0 +1,238 @@
+/* *********** SM DEVICE SCSS *********** */ 
+@media all and (min-width:768px) and (max-width:1023.98px) {
+
+      .allBusiness{
+            li{
+                  padding: 0 15px !important;
+            }
+
+            .target6{
+                  padding-left: 34em;  
+            }
+      }
+      .grrow{
+            display: flex;
+      }
+
+      // Pie Chart CSS
+      .chartjs-size-monitor{
+            .chartjs-render-monitor{
+                  display: block;
+                  height: 250px!important;
+                  width: 250px!important;
+                  margin: auto;
+            }
+            .pieCanvas{
+                  height: 250px!important;
+                  width: 250px!important;
+                  margin: auto;
+            }
+            .pieGraph{
+                  padding-top: 3em!important;
+            }
+      }
+      .graphColor{
+            margin: 2em 0!important;
+      }
+      /*  ******* five Div css ******* */  
+      ul.divfive{
+            li{
+                  margin: 0 5px;
+                  .fiveDiv{
+                        width: 135px;
+                        padding: 9px 20px;
+                  }
+            }
+      }
+
+      .divisionXS {
+            .col6 { 
+                  padding: 0!important;
+                  label {
+                        font-size: 12px!important;
+                        margin: 6px -100px 0 0!important;
+                  }
+                  .divlab{
+                        margin: 6px -120px 0 0!important;
+                  }
+            }
+      }
+
+}
+      /*  ******* XS DEVICES CSS ******* */  
+
+@media all and (max-width:768px) {
+
+.l2{
+      color: #0465B4;
+      font-size: 14px;
+      font-weight: bold;
+}
+.ttt{
+      position: absolute;
+      left: 0px;
+}
+      .grrow{
+            display: flex;
+            .titleGraph{
+                  padding: 0 15px;
+                  p{
+                        font-size: 15px;
+                  }
+            }
+      }
+
+      .pieCanvas {
+            width: 100% !important;
+            height: 400px !important;
+        }
+      .headerTop {
+            padding: 14px;
+            p{
+                  font-size: 20px;
+            }
+        }
+      .logHeader{
+            height: 56px!important;
+            .logOval{
+                  height: 300px!important;
+                  width: 300px!important;
+                  opacity: 0.29;
+                  background-color: #389AF3;
+                  border-radius: 50%;
+                  position: relative;
+                  bottom: 60px!important;
+                  left: 65px!important;
+            }
+      }
+      
+      
+
+      .col4{
+            border-bottom: 1px solid lightgray;
+            margin-bottom: 2em;
+            padding: 5px 3px;
+            .col4wrap1, .col4wrap2, .col4wrap3{
+                  p{
+                        margin: 0;
+                        font-size: 12px!important;
+                  }
+                  h3{
+                        font-size: 14px!important;
+                  }
+            }
+      }
+      .detdo{
+            h5{
+                  font-size: 13px!important;
+                  span{
+                        font-size: 12px!important;
+                  }
+            }
+            .toDesc{
+                  font-size: 14px!important;
+            }
+            ul{
+                  li{                        
+                        padding: 2px 5px!important;
+                        &:first-child{
+                              border: 0px solid gray!important;
+                              font-size: 12px;
+                              color: #96A1A9!important;
+                              font-weight: normal!important;
+                        }
+                        &:nth-child(2){
+                              font-size: 11px;
+                              color: #0465B4!important;
+                              font-weight: bold;
+                              span{
+                                    font-size: 13px;
+                              }
+                        }
+
+                  }
+            }
+      }
+      
+      .xsP0{
+            padding: 0px;
+      }
+      .pieGraph{
+            padding-top: 2em!important;
+      }
+      .bar {
+            margin: 15px 0!important;
+            padding: 0;
+      }
+      .target6{
+            padding-left: 10em;
+      }
+      .formYr{
+            display: none;
+      }
+      .tablink{
+            padding: 0%;
+      }
+      .divlab{
+            margin: 9px -12px 0 0 !important;
+      }
+      .dashSection {
+            .tab-content{
+                  margin-top: 1px !important;
+                  padding-top: 0!important;
+            }
+        }
+
+      ul.divfive{
+            li{
+                  margin: 10px 5px;
+                  width: 110px!important;
+                  .fiveDiv{
+                        width: 115px;
+                        box-shadow: 0px 3px 8px 0px #43cefb4a;
+                        .first{
+                              font-size: 13px;
+                        }
+                        .size{
+                              font-size: 25px;
+                              line-height: 35px;   
+                        }
+                  }
+            }
+      }
+      .tab-content {
+            overflow: auto;
+        }
+
+}
+
+@media all and (min-width:768px) and (max-width:992px) {
+      
+      .dashSection {
+            border-bottom-left-radius: 4em!important;
+            max-height: 70px !important;
+        }
+}
+@media all and (min-width:768px) and (max-width:991.98px) {
+      ul.divfive  {
+            li{
+                  width: 135px!important;
+            }
+        }
+}
+@media all and (min-width:991.98px){
+      .target6{
+            padding-left: 34em;  
+      }
+      
+}
+@media all and (min-width:575.98px) and (max-width:992px){
+      .pieCanvas{
+            height: 250px!important;
+            width: 250px!important;
+            margin: auto;
+      }
+      .grsbenchmark>div{
+            margin: auto;
+      }
+}

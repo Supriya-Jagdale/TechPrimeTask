@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+      background-color: #e0dede63;
+      overflow-x: hidden;
+      font-family: 'Nunito Sans';
+}
+
+// Color variables
+$teal: #044e92;
+$darkPurple: #060042;
+$lightblue : #0473d9;
+$weight:700;
+$background: radial-gradient(circle at bottom right, $lightblue, $teal);
+$backRad: 7em;
+$white:white!important;
+
+@media all and (max-width:768px) {
+      body{
+            background-color: $white;
+      }
+}
+@media all and (min-width:768px) and (max-width:991.98px) {
+      body{
+            background-color: $white;
+      }
+}

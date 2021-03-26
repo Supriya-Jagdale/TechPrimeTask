@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+// font-family: 'Nunito Sans', sans-serif;
+// font-family: 'Work Sans', sans-serif;
+
+// Color variables
+$teal: #044E92;
+$darkPurple: #060042;
+$lightblue : #0474DA;
+$weight:700;
+$white:white;
+$family:'Nunito Sans', sans-serif;
+$lightblack:#767676;
+
+
+.logHeader {
+      height: 472px;
+      width: 100%;
+      border-radius: 0 0 0 87px;
+      background: linear-gradient(
+  274.88deg
+  , #0474DA 0%, #044E92 100%);
+      .logOval {
+            height: 626px;
+            width: 647px;
+            opacity: 0.29;
+            background-color: #389AF3;
+            border-radius: 50%;
+            position: absolute;
+            right: 186px;
+            bottom: 325px;
+      }
+  }
+
+// ********* login Form Css *************
+
+
+
+.loginSection{
+      position: absolute;
+      width: 100%;
+      top: 147px;
+      font-family: $family;
+}
+.field-icon {
+      position: absolute;
+      right: 28px;
+      top: 38px;
+      width: 24px;
+      font-size: 19px;
+      color: $lightblack;
+}
+.loginForm{
+      
+      .formOff{
+            padding: 0 4em;
+      }
+      .companyName{
+            text-align: center;
+            color: $white;
+            font-size: 26px;
+            margin: 1em 0 1.5em 0;
+            font-family: $family;
+            line-height: 35px;
+      }
+}
+.formWraper{
+      height: 422px;
+      width: 410px;
+      border-radius: 10px;
+      background-color: #FFFFFF;
+      box-shadow: 0 7px 18px 0 rgba(2,118,179,0.13);
+      margin: auto;
+}
+.formData{
+      .form-group{
+            padding: 0 21px;
+            label{
+                  text-transform: capitalize;
+                  color: $lightblack;
+                  font-family: "Nunito Sans";
+                  font-size: 14px;
+                  letter-spacing: 0;
+                  line-height: 19px;
+            }
+            .form-control{
+                  border: 1px solid #979797;
+                  border-radius: 6px;
+                  height: 48px;
+            }
+      }
+      
+      p{
+            text-align: center;
+            padding: 50px 0;
+            font-weight: 700;
+            color: #3F3F3F;
+            font-size: 20px;
+            letter-spacing: 0;
+            line-height: 27px;
+            span{
+                  font-family: 'Nunito Sans', sans-serif;
+            }
+      }
+      a.forgot{
+            float: right;
+            text-decoration: none;
+            color: #025AAB;
+            font-family: "Work Sans";
+            font-size: 12px;
+            letter-spacing: 0;
+            line-height: 14px;
+            padding-right: 21px;
+            &:hover{
+                  color:$lightblue;
+            }
+      }
+      .btnWraper{
+            text-align: center;
+            div{
+                  text-align: center;
+                  width: 169px;
+                  padding: 6px 10px;
+                  border-radius: 18px;
+                  background-color: #035FB2;
+                  font-family: "Nunito Sans";
+                  font-size: 16px;
+                  margin: 1em auto; 
+                  a{
+                        color: white;
+                        text-decoration: none;
+                        cursor: pointer;
+                  }
+            }
+      }
+}
+
+
+    

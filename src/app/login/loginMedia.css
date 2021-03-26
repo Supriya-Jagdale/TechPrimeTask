@@ -1,0 +1,35 @@
+@media (max-width: 767.98px) {
+  .loginForm .formOff {
+    padding: 0 !important;
+  }
+  .formWraper {
+    width: auto;
+  }
+  .logOval {
+    right: -117px !important;
+    bottom: 325px !important;
+    height: 420px !important;
+    width: 420px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .logOval {
+    right: 0px !important;
+    bottom: 569px !important;
+  }
+  .formWraper {
+    width: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .logOval {
+    right: -100px !important;
+    bottom: 770px !important;
+  }
+  .formOff {
+    padding: 0 !important;
+  }
+}
+/*# sourceMappingURL=loginMedia.css.map */
